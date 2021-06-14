@@ -5,7 +5,7 @@ build:
 	yarn build
 
 clean:
-	yarn clean
+	rm -rf build
 
 test: ## Runs unit tests
 	yarn test --watchAll=false
