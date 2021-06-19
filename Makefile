@@ -1,10 +1,10 @@
 run: ## Run development server
 	yarn start
 
-build:
+build: ## build deployment server package
 	yarn build
 
-clean:
+clean: ## clean build directory
 	rm -rf build
 
 test: ## Runs unit tests
