@@ -1,5 +1,3 @@
-import React from "react";
-
 import AppBar from "@material-ui/core/AppBar";
 import Link from "@material-ui/core/Link"
 import Toolbar from "@material-ui/core/Toolbar";
