@@ -13,6 +13,10 @@ test: ## Runs unit tests
 integration-test: ## Runs Integration tests
 	@echo "Not yet Implemented"
 
+lint: ## Lint the code
+	yarn run eslint **/*.tsx
+	yarn run stylelint src/**/*.css
+
 help: ## Display this help text
 	@echo "Usage: make <target>"
 	@echo ""
