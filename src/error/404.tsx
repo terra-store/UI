@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-class notfound extends Component {
+class NotFound extends Component {
   render() {
    return (
     <React.Fragment>
@@ -9,4 +9,4 @@ class notfound extends Component {
    ); 
   }
 }
-export default notfound;
+export default NotFound;

@@ -8,7 +8,7 @@ clean: ## clean build directory
 	rm -rf build
 
 test: ## Runs unit tests
-	yarn test --watchAll=false
+	yarn test --watchAll=false --coverage  --collectCoverageFrom=!src/index.tsx --collectCoverageFrom=less!src/react-app-env.d.ts
 
 integration-test: ## Runs Integration tests
 	@echo "Not yet Implemented"
