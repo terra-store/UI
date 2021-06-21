@@ -17,6 +17,9 @@ lint: ## Lint the code
 	yarn run eslint **/*.tsx
 	yarn run stylelint src/**/*.css
 
+setup: ## Run npm install to setup project
+	npm install
+
 help: ## Display this help text
 	@echo "Usage: make <target>"
 	@echo ""

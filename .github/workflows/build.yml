@@ -30,6 +30,7 @@ jobs:
 
       - name: Run tests
         run: |
+          make setup
           make test
       
       - name: Manual Coverage
