@@ -1,5 +1,5 @@
 import AppBar from "@material-ui/core/AppBar";
-import Link from "@material-ui/core/Link"
+import Link from "@material-ui/core/Link";
 import Toolbar from "@material-ui/core/Toolbar";
 import InputBase from "@material-ui/core/InputBase";
 import { createStyles, fade, Theme, makeStyles } from "@material-ui/core/styles";

@@ -6,6 +6,10 @@ build: ## build deployment server package
 
 clean: ## clean build directory
 	rm -rf build
+	rm -rf coverage
+
+force-clean: clean ## clean all generated files including node_modules
+	rm -rf node_modules
 
 test: ## Runs unit tests
 	yarn test --watchAll=false --coverage  --collectCoverageFrom=src/**/*.tsx --collectCoverageFrom=!src/index.tsx --collectCoverageFrom=less!src/react-app-env.d.ts
