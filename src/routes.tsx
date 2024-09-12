@@ -12,5 +12,5 @@ export default class Routes extends Component {
                 </Switch>;
             </React.Fragment>
         );
-    };
+    }
 }
